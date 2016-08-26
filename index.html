@@ -1,19 +1,30 @@
 <html>
   <head>
     <title>NowThis Technology</title>
+    <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
     <script src="https://use.typekit.net/gcw6gyx.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script src="js/main.js"></script>
     <link rel="stylesheet" type="text/css" href="main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </head>
   <body>
     <div class='container'>
       <div class='menu'>
-        <div id='logo'><img src='images/logo.gif'></div>
-        <div id='name'>
-          NowThis
-          <br />
-          <span>Technology</span>
+        <a href='index.html'>
+          <div id='logo'><img src='images/logo.gif'></div>
+          <div id='name'>
+            NowThis
+            <br />
+            <span>Technology</span>
+          </div>
+        </a>
+        <div class='nav'>
+          <a class='contact_link' href='contact.html'>CONTACT</a>
+          <a href='#section3'>SCHOOL IT PROGRAMMES</a>
+          <a href='#section2'>STAFF IT TRAINING</a>
+          <a href='#section1'>IT CONSULTANCY FOR BUSINESS</a>
         </div>
       </div>
       <div class='section banner navy'>
@@ -26,7 +37,7 @@
           NowThis Technology is the consultancy of Alan Stirling, an IT Solutions Architect from Coleraine, Northern Ireland. We work with businesses, universities and schools all over NI to help them improve through the appropriate use of IT.
         </div>
       </div>
-      <div class='section white'>
+      <div id="section1" class='section white'>
         <div class='half navy_back'>
           <div class='header aqua'>
             Good tools for good businesses.
@@ -40,7 +51,7 @@
 
         </div>
       </div>
-      <div class='section navy'>
+      <div id="section2" class='section navy'>
         <div class='half left1'>
 
         </div>
@@ -54,7 +65,7 @@
           We help our clients' team members grow in confidence and proficiency, training them in just the right tools for the job - from simple word processing to workplace collaboration tools, to advanced programming languages.
         </div>
       </div>
-      <div class='section navy'>
+      <div id="section3" class='section navy'>
         <div class='half red_back'>
           <div class='header white'>
             Helping the next generation thrive.
@@ -68,7 +79,8 @@
 
         </div>
       </div>
-
+      <div class='section navy_back'>
+      </div>
     </div>
 
   </body>

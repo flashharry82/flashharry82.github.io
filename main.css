@@ -133,8 +133,41 @@ body{
   margin: 50px 0px 0px 30px;
 }
 
+.nav{
+  width:70%;
+  float:right;
+}
+
+.nav a{
+  font-size:0.7em;
+  font-weight:600;
+  padding:10px 20px;
+  float:right;
+  text-align:right;
+  color: #222A43;
+}
+
+.menu a:hover{
+  text-decoration: none;
+}
+
+.nav a:hover{
+  text-decoration: none;
+}
+
+.contact_link{
+  border: solid 1px #90DAD1;
+}
+
 @media (max-width: 992px) {
   .section {
     width: 470px;
+  }
+  .nav{
+    width:215px;
+    float:right;
+  }
+  .container{
+    width:500px;
   }
 }
