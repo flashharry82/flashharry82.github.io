@@ -14,6 +14,14 @@ html, body{
   vertical-align: bottom;
 }
 
+#logo{
+  width:80px;
+}
+
+#logo img{
+  width:100%;
+}
+
 #name{
   font-size:1.3em;
   font-weight:300;
@@ -25,14 +33,105 @@ html, body{
 }
 
 .section{
-  padding:30px;
+  font-size:0.85em;
+  line-height:2em;
+  font-weight:400;
+  height:360px;
 }
 
-.first_section{
-  background: url(images/background1.png) no-repeat center bottom fixed;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-  background-size: 100%;
+.banner{
+  background: url(images/background1.jpg) no-repeat center top;
+  -webkit-background-size: 1140px;
+  -moz-background-size: 1140px;
+  -o-background-size: 1140px;
+  background-size: 1140px;
   height: 300px;
+  width:100%;
+}
+
+.right1{
+  background: url(images/background2.jpg) no-repeat center center;
+  -webkit-background-size: 650px;
+  -moz-background-size: 650px;
+  -o-background-size: 650px;
+  background-size: 650px;
+}
+
+.left1{
+  background: url(images/background3.jpg) no-repeat center center;
+  -webkit-background-size: 650px;
+  -moz-background-size: 650px;
+  -o-background-size: 650px;
+  background-size: 650px;
+}
+
+.right2{
+  background: url(images/background4.jpg) no-repeat center center;
+  -webkit-background-size: 650px;
+  -moz-background-size: 650px;
+  -o-background-size: 650px;
+  background-size: 650px;
+}
+
+.navy{
+  color: #222A43;
+}
+
+.aqua{
+  color: #90DAD1;
+}
+
+.red{
+  color: #D84F66;
+}
+
+.white{
+  color: white;
+}
+
+.navy_back{
+  background-color: #212A43;
+}
+
+.aqua_back{
+  background-color: #90DAD1;
+}
+
+.red_back{
+  background-color: #D84F66;
+}
+
+.white_back{
+  background-color: white;
+}
+
+.header{
+  font-size:1.9em;
+  line-height:1.4em;
+  font-weight:300;
+  margin-bottom:20px;
+}
+
+.subheader{
+  font-style:italic;
+  font-weight:600;
+  font-size:0.5em;
+}
+
+.half{
+  width:50%;
+  min-width:470px;
+  display:inline-block;
+  padding:50px 72px 0px 30px;
+  height:360px;
+  margin-right:-4px;
+  vertical-align:top;
+}
+
+
+
+@media (max-width: 992px) {
+  .section {
+    width: 470px;
+  }
 }
