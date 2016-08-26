@@ -73,21 +73,22 @@ body{
   background-size: 650px;
 }
 
-.navy{
+.navy, a.navy:hover{
   color: #222A43;
 }
 
-.aqua{
+.aqua, a.aqua:hover{
   color: #90DAD1;
 }
 
-.red{
+.red, a.red:hover{
   color: #D84F66;
 }
 
-.white{
+.white, a.white:hover{
   color: white;
 }
+
 
 .navy_back{
   background-color: #212A43;
@@ -138,7 +139,7 @@ body{
   float:right;
 }
 
-.nav a{
+.nav a, .nav a:hover{
   font-size:0.7em;
   font-weight:600;
   padding:10px 20px;
@@ -147,16 +148,19 @@ body{
   color: #222A43;
 }
 
-.menu a:hover{
-  text-decoration: none;
-}
-
-.nav a:hover{
+.nav a:hover, .menu a:hover, .section a:hover{
   text-decoration: none;
 }
 
 .contact_link{
   border: solid 1px #90DAD1;
+}
+
+.button{
+  display:inline-block;
+  margin-top:20px;
+  padding:8px 20px;
+  font-weight:600;
 }
 
 @media (max-width: 992px) {
