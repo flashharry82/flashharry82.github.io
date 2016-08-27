@@ -179,6 +179,23 @@ body{
   font-weight:600;
 }
 
+#social_icons img{
+  width:80px;
+  padding:20px;
+}
+
+#footer_links{
+  color:white;
+  float:right;
+  margin:20px 20px 0px 0px;
+}
+
+#footer_links a, #footer_links a:hover{
+  color:white;
+  text-decoration:none;
+  padding:0px 30px;
+}
+
 @media (max-width: 992px) {
   .section, .menu {
     width: 470px;
@@ -189,6 +206,14 @@ body{
   }
   .container{
     width:500px;
+  }
+
+  #social_icons{
+    margin-left:4px;
+  }
+  #social_icons img{
+    width:39px;
+    padding:20px 6px;
   }
 }
 
@@ -223,5 +248,18 @@ body{
   .form{
     width:310px;
     margin: 50px 5px 0px 5px;
+  }
+
+  #social_icons{
+    text-align:center;
+  }
+
+  #social_icons img{
+    width:40px;
+    padding:5px;
+  }
+
+  #footer_links a, #footer_links a:hover{
+    padding:0px 10px;
   }
 }
