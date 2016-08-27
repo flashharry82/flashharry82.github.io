@@ -4,6 +4,10 @@ body{
   font-weight: 100;
 }
 
+.container{
+  padding:0 !important;
+}
+
 .menu{
   margin-top:20px;
   padding: 0px 30px;
@@ -185,5 +189,34 @@ body{
   }
   .container{
     width:500px;
+  }
+}
+
+@media (max-width: 470px) {
+  .section, .menu {
+    width: 320px;
+  }
+  .menu{
+    padding:0px 0px 0px 8px;
+  }
+  .nav{
+    width:200px;
+    float:right;
+  }
+  #logo{
+    display:none;
+    width:0;
+  }
+  .container{
+    width:320px;
+  }
+
+  .half{
+    width:50%;
+    min-width:320px;
+    float:left;
+    padding:50px 10px 0px 10px;
+    height:360px;
+    vertical-align:top;
   }
 }
