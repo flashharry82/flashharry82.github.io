@@ -219,4 +219,9 @@ body{
     height:360px;
     vertical-align:top;
   }
+
+  .form{
+    width:310px;
+    margin: 50px 5px 5px 30px;
+  }
 }
