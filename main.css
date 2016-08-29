@@ -1,5 +1,5 @@
 body{
-  font-family: "effra",sans-serif;
+  font-family: "effra",sans-serif !important;
   font-style: normal;
   font-weight: 300;
 }
