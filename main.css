@@ -86,6 +86,14 @@ body{
   background-size: 650px;
 }
 
+.right4{
+  background: url(images/coding.jpeg) no-repeat center center;
+  -webkit-background-size: 650px;
+  -moz-background-size: 650px;
+  -o-background-size: 650px;
+  background-size: 650px;
+}
+
 .navy, a.navy:hover{
   color: #222A43;
 }
